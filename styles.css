@@ -6,7 +6,7 @@
 
 body {
   background-color: rgb(14, 13, 13);
-  font-size: 16px;
+  font-size: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -52,4 +52,36 @@ p {
 
 .text {
   color: white;
+}
+
+@media only screen and (min-width:620px) and (max-width:975px){
+  .container {
+    width: 70%;
+  }
+  
+  .content {
+    width: 70%;
+  }
+
+  .under {
+    width: 70%;
+  }
+}
+
+
+@media only screen and (min-width:260px) and (max-width:619px){
+  .container {
+    width: 90%;
+    margin: 60px auto;
+  }
+  
+  .content {
+    width: 85%;
+    padding: 60px 30px 30px 30px;
+  }
+
+  .under {
+    width: 90%;
+    margin: -60px auto;
+  }
 }
